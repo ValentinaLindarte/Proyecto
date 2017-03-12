@@ -8,9 +8,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css"/>
-    <title>  </title>
-</head>
-     
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>  </title>
+
+    </head>
+    
+    <h1>'Bienvenido:'+ </h1>
+    
 </html>
