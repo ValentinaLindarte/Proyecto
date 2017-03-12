@@ -8,11 +8,8 @@
 <!DOCTYPE html>
 <html>
     <nav>
-<<<<<<< HEAD
-        <div id="navTitulo"> Atrevete, experimenta y disfruta </div>
-=======
-    <h2>Atrévete, experimenta y disfruta.</h2>
 
->>>>>>> origin/master
+        <div id="navTitulo"> Atrevete, experimenta y disfruta </div>
+
 </nav>
 </html>

@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
+
     <%@include file="header.jsp" %>
     <%@include file="nav.jsp" %>
     <%@include file="aside.jsp" %>
@@ -18,9 +18,9 @@
     <script>
    
     var imagenes=new Array(
-        'img/1.jpg',
-        'img/2.jpg',
-        'img/3.jpg'
+        'img/Corral.jpg',
+        'img/Crepes.jpg',
+        'img/HardRock.png'
     );
  
     
@@ -35,11 +35,8 @@
  
     
     onload=function()
-    {
-        
+    {       
         rotarImagenes();
- 
-        
         setInterval(rotarImagenes,3000);
     }
 </script>
@@ -48,7 +45,7 @@
 
         <section>
             <h1>Restaurantes preferidos</h1>
-            <img src="" id="imagen">
+            <a ><img src="" id="imagen" style="width: 80%; height: 80%;"></a>
            
             
 
@@ -58,44 +55,5 @@
             </ul>
 
         </section>
-
-=======
-    <%@include file="head.jsp" %>
- 
-
-    <body>
-        <%@include file="header.jsp" %>
-        <%@include file="nav.jsp" %>
-        <%@include file="aside.jsp" %>
-
-        <section>
-            <h2> Lugares recomendados</h2>     
-            <h3> Lista top 10: </h3> 
-            <ul>
-
-                <li><a href="">Restaurante 1</a></li>
-                <li><a href="">Restaurante 2 </a></li>
-                <li><a href="">Restaurante 3 </a></li>
-                <li><a href="">Restaurante 4 </a></li>
-                <li><a href="">Restaurante 5</a></li>
-                <li><a href="">Restaurante 6 </a></li>
-                <li><a href="">Restaurante 7</a></li>
-                <li><a href="">Restaurante 8</a></li>
-                <li><a href="">Restaurante 9 </a></li>
-                <li><a href="">Restaurante 10</a></li>
-            </ul>
-
-
-            <ul id = "agregar">
-
-                <li><a href="">Agregar Comentario</a></li>
-
-
-            </ul>
-
-        </section>
-        <%@include file="footer.jsp" %>
->>>>>>> origin/master
-
-    </body>
+   
 </html>
