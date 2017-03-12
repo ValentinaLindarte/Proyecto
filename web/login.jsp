@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Come y me cuentas</title>
     </head>
     <body>
         <h1>Binevenido <br>
@@ -29,6 +29,6 @@
 		</table>
             <input type="submit" /><br>
 	</form>
-        <br><a href="" class="nuevaLink">Nueva cuenta </a>
+        <br><a href="" class="nuevaLink">Nueva cuenta </a> 
     </body>
 </html>
