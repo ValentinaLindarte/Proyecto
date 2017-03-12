@@ -46,7 +46,7 @@
     <body>
 
         <section>
-            <h1>Lugares preferidos:</h1>
+            <h1>Restaurantes preferidos:</h1>
             <img src="" id="imagen">
            
             
